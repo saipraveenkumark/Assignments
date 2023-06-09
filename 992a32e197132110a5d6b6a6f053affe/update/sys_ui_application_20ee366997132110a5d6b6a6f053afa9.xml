@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Test</name>
+        <order/>
+        <roles>x_526643_assignmen.test_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-08 07:14:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>20ee366997132110a5d6b6a6f053afa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_update_name>sys_ui_application_20ee366997132110a5d6b6a6f053afa9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-08 07:14:18</sys_updated_on>
+    </sys_ui_application>
+</record_update>

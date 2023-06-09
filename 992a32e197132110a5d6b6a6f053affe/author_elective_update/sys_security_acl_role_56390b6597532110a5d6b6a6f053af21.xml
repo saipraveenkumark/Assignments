@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-08 08:16:31</sys_created_on>
+        <sys_id>56390b6597532110a5d6b6a6f053af21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_526643_assignmen_test.x_526643_assignmen.test_admin</sys_name>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_security_acl display_value="x_526643_assignmen_test">6cee366997132110a5d6b6a6f053afb2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_56390b6597532110a5d6b6a6f053af21</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-08 08:16:31</sys_updated_on>
+        <sys_user_role display_value="x_526643_assignmen.test_admin" name="x_526643_assignmen.test_admin">3c468f6197532110a5d6b6a6f053afab</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Assignments">992a32e197132110a5d6b6a6f053affe</application>
+        <file_path/>
+        <instance_id>e06932331b40f810e84d2f8dee4bcbea</instance_id>
+        <instance_name>dev116969</instance_name>
+        <name>sys_security_acl_role_56390b6597532110a5d6b6a6f053af21</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-08 08:16:31</sys_created_on><sys_id>56390b6597532110a5d6b6a6f053af21</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_526643_assignmen_test.x_526643_assignmen.test_admin</sys_name><sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package><sys_policy/><sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope><sys_security_acl display_value="x_526643_assignmen_test">6cee366997132110a5d6b6a6f053afb2</sys_security_acl><sys_update_name>sys_security_acl_role_56390b6597532110a5d6b6a6f053af21</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-08 08:16:31</sys_updated_on><sys_user_role display_value="x_526643_assignmen.test_admin" name="x_526643_assignmen.test_admin">3c468f6197532110a5d6b6a6f053afab</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-5568097</payload_hash>
+        <record_name>x_526643_assignmen_test.x_526643_assignmen.test_admin</record_name>
+        <reverted_from/>
+        <source>1d2a72e197132110a5d6b6a6f053af00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-08 08:16:31</sys_created_on>
+        <sys_id>c02d8f2997532110a5d6b6a6f053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1889a14263c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-08 08:16:31</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>0c2d8f29ee532110011f305796060385</update_guid>
+        <update_guid_history>0c2d8f29ee532110011f305796060385:-5568097</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_526643_assignmen_test.x_526643_assignmen.test_admin">8634dc8297176110a5d6b6a6f053afdd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-09 08:05:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0e5ebc4b7b3847b8a78c3795487b6640</sys_id>
+        <sys_metadata>56390b6597532110a5d6b6a6f053af21</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_526643_assignmen_test.x_526643_assignmen.test_admin</sys_name>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_parent display_value="x_526643_assignmen_test">6cee366997132110a5d6b6a6f053afb2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_scope_delete display_value="">f2cd2d767ffb4fac9d1f64ec2f69e524</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_56390b6597532110a5d6b6a6f053af21</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_56390b6597532110a5d6b6a6f053af21">c02d8f2997532110a5d6b6a6f053af86</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-09 08:05:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

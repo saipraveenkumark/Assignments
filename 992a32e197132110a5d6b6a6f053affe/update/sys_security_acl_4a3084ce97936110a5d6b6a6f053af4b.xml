@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow write for address in x_526643_assignmen_test, if the ACL script returns true.</description>
+        <name>x_526643_assignmen_test.address</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = getValue();
+
+function getValue() {
+
+    var test_admin = gs.hasRole('x_526643_assignmen.test_admin');
+
+    var test_user = gs.hasRole('x_526643_assignmen.test_user');
+
+    if (test_admin) {
+        return true;
+    } else if (test_user && (current.name == gs.getUserID())) {
+        return true;
+    } else {
+        return false;
+    }
+
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-09 06:47:47</sys_created_on>
+        <sys_id>4a3084ce97936110a5d6b6a6f053af4b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>x_526643_assignmen_test.address</sys_name>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_update_name>sys_security_acl_4a3084ce97936110a5d6b6a6f053af4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-09 08:08:07</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

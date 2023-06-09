@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Assignments">271e722997132110a5d6b6a6f053afc2</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Tests</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_526643_assignmen_test</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_526643_assignmen.test_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-08 07:10:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab1e762997132110a5d6b6a6f053af12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_update_name>sys_app_module_ab1e762997132110a5d6b6a6f053af12</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-08 07:10:58</sys_updated_on>
+        <timeline_page/>
+        <title>Tests</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Assignments">992a32e197132110a5d6b6a6f053affe</application>
+        <file_path/>
+        <instance_id>e06932331b40f810e84d2f8dee4bcbea</instance_id>
+        <instance_name>dev116969</instance_name>
+        <name>sys_app_module_ab1e762997132110a5d6b6a6f053af12</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Assignments">271e722997132110a5d6b6a6f053afc2</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Tests</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_526643_assignmen_test</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_526643_assignmen.test_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-08 07:10:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ab1e762997132110a5d6b6a6f053af12</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tests</sys_name><sys_overrides/><sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package><sys_policy/><sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope><sys_update_name>sys_app_module_ab1e762997132110a5d6b6a6f053af12</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-08 07:10:58</sys_updated_on><timeline_page/><title>Tests</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1001045085</payload_hash>
+        <record_name>Tests</record_name>
+        <reverted_from/>
+        <source>1d2a72e197132110a5d6b6a6f053af00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-08 07:10:58</sys_created_on>
+        <sys_id>eb1e762997132110a5d6b6a6f053af14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18899d820770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-08 07:10:58</sys_updated_on>
+        <type>Module</type>
+        <update_guid>271e762926132110f1ed6456f3694614</update_guid>
+        <update_guid_history>271e762926132110f1ed6456f3694614:-1001045085</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tests">128e7e2997132110a5d6b6a6f053af5f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-08 07:12:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0cb3c8dd2eb64170b14a047aed0552c4</sys_id>
+        <sys_metadata>ab1e762997132110a5d6b6a6f053af12</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tests</sys_name>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_scope_delete display_value="">f2cd2d767ffb4fac9d1f64ec2f69e524</sys_scope_delete>
+        <sys_update_name>sys_app_module_ab1e762997132110a5d6b6a6f053af12</sys_update_name>
+        <sys_update_version display_value="sys_app_module_ab1e762997132110a5d6b6a6f053af12">eb1e762997132110a5d6b6a6f053af14</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-08 07:12:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

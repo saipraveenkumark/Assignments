@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="33ce726997132110a5d6b6a6f053af52" label="Test" max_length="40" name="x_526643_assignmen_test" type="collection">
+        <element label="Address" max_length="500" name="address" type="string"/>
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="Salary" max_length="20" name="salary" type="currency"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

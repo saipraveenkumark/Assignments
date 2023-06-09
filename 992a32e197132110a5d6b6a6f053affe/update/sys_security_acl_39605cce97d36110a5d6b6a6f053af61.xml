@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow write for all fields in x_526643_assignmen_test, for users with role x_526643_assignmen.test_admin.</description>
+        <name>x_526643_assignmen_test.*</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-09 07:48:57</sys_created_on>
+        <sys_id>39605cce97d36110a5d6b6a6f053af61</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_526643_assignmen_test.*</sys_name>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_update_name>sys_security_acl_39605cce97d36110a5d6b6a6f053af61</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-09 07:49:25</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

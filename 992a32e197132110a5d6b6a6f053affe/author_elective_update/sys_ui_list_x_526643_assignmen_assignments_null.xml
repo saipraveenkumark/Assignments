@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_526643_assignmen_assignments" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_526643_assignmen_assignments" element="NULL" name="x_526643_assignmen_assignments" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">795d36e597132110a5d6b6a6f053af6a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-08 07:07:34</sys_created_on>
+            <sys_id>b15d36e597132110a5d6b6a6f053af6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-08 07:07:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_526643_assignmen_assignments</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-08 07:07:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>795d36e597132110a5d6b6a6f053af6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_526643_assignmen_assignments</sys_name>
+            <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+            <sys_update_name>sys_ui_list_x_526643_assignmen_assignments_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-08 07:07:34</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Assignments">992a32e197132110a5d6b6a6f053affe</application>
+        <file_path/>
+        <instance_id>e06932331b40f810e84d2f8dee4bcbea</instance_id>
+        <instance_name>dev116969</instance_name>
+        <name>sys_ui_list_x_526643_assignmen_assignments_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_526643_assignmen_assignments" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_created_on</element><list_id display_value="x_526643_assignmen_assignments" element="NULL" name="x_526643_assignmen_assignments" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">795d36e597132110a5d6b6a6f053af6a</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-08 07:07:34</sys_created_on><sys_id>b15d36e597132110a5d6b6a6f053af6c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-08 07:07:34</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_526643_assignmen_assignments</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-08 07:07:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>795d36e597132110a5d6b6a6f053af6a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_526643_assignmen_assignments</sys_name><sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package><sys_policy/><sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope><sys_update_name>sys_ui_list_x_526643_assignmen_assignments_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-08 07:07:34</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>582760078</payload_hash>
+        <record_name>Test</record_name>
+        <reverted_from/>
+        <source>1d2a72e197132110a5d6b6a6f053af00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-08 07:07:34</sys_created_on>
+        <sys_id>715d36e597132110a5d6b6a6f053af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18899d504a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-08 07:07:34</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>315d36e546132110506e765dd2a9826e</update_guid>
+        <update_guid_history>315d36e546132110506e765dd2a9826e:582760078</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-08 07:08:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>4cdf14c2039a483a9a2800abed5717c4</sys_id>
+        <sys_metadata>795d36e597132110a5d6b6a6f053af6a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_526643_assignmen_assignments</sys_name>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_parent display_value="">21ba7ee197132110a5d6b6a6f053af74</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_scope_delete display_value="">f2cd2d767ffb4fac9d1f64ec2f69e524</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_526643_assignmen_assignments_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_526643_assignmen_assignments_null">715d36e597132110a5d6b6a6f053af6e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-08 07:08:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
