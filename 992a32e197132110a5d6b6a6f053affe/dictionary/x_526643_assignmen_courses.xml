@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b054d8b897b36110a5d6b6a6f053af81" label="Courses" max_length="40" name="x_526643_assignmen_courses" type="collection">
+        <element label="Alias" max_length="5" name="c_alias" type="string"/>
+        <element display="true" label="Name" max_length="60" name="c_name" type="string"/>
+        <element label="Short form" max_length="5" name="c_short_form" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

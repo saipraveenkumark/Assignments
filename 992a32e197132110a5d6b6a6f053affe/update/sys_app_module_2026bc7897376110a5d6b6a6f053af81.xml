@@ -10,31 +10,31 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Tests</mobile_title>
+        <mobile_title>University Courses</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_526643_assignmen_test</name>
-        <order>100</order>
+        <name>x_526643_assignmen_university_courses</name>
+        <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_526643_assignmen.test_user,x_526643_assignmen.test_admin</roles>
+        <roles>x_526643_assignmen.university_courses_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-08 07:14:18</sys_created_on>
+        <sys_created_on>2023-06-30 09:52:47</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>a8ee366997132110a5d6b6a6f053afa6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Tests</sys_name>
+        <sys_id>2026bc7897376110a5d6b6a6f053af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>University Courses</sys_name>
         <sys_overrides/>
         <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
         <sys_policy/>
         <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
-        <sys_update_name>sys_app_module_a8ee366997132110a5d6b6a6f053afa6</sys_update_name>
+        <sys_update_name>sys_app_module_2026bc7897376110a5d6b6a6f053af81</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-29 11:30:25</sys_updated_on>
+        <sys_updated_on>2023-06-30 09:52:47</sys_updated_on>
         <timeline_page/>
-        <title>Tests</title>
+        <title>University Courses</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

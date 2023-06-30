@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="644c77e097736110a5d6b6a6f053af2b" extends="sys_import_set_row" label="Universities History Data" max_length="40" name="x_526643_assignmen_universities_history_data" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Address" label="Address" max_length="46" name="u_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Alias" label="Alias" max_length="40" name="u_alias" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Logo" label="Logo" max_length="40" name="u_logo" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Portfolio pictures" label="Portfolio pictures" max_length="40" name="u_portfolio_pictures" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Zipcode" label="Zipcode" max_length="40" name="u_zipcode" type="string"/>
+    </element>
+</database>

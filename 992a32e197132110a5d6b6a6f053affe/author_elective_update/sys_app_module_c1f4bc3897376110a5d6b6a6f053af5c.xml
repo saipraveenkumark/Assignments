@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Assignments">d0ee366997132110a5d6b6a6f053afa4</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>University Courses</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_526643_assignmen_university_course</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_526643_assignmen.university_course_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 09:47:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c1f4bc3897376110a5d6b6a6f053af5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>University Courses</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_update_name>sys_app_module_c1f4bc3897376110a5d6b6a6f053af5c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 09:47:38</sys_updated_on>
+        <timeline_page/>
+        <title>University Courses</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Assignments">992a32e197132110a5d6b6a6f053affe</application>
+        <file_path/>
+        <instance_id>e06932331b40f810e84d2f8dee4bcbea</instance_id>
+        <instance_name>dev116969</instance_name>
+        <name>sys_app_module_c1f4bc3897376110a5d6b6a6f053af5c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Assignments">d0ee366997132110a5d6b6a6f053afa4</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>University Courses</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_526643_assignmen_university_course</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_526643_assignmen.university_course_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-30 09:47:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c1f4bc3897376110a5d6b6a6f053af5c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>University Courses</sys_name><sys_overrides/><sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package><sys_policy/><sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope><sys_update_name>sys_app_module_c1f4bc3897376110a5d6b6a6f053af5c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-30 09:47:38</sys_updated_on><timeline_page/><title>University Courses</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1854358991</payload_hash>
+        <record_name>University Courses</record_name>
+        <reverted_from/>
+        <source>8f78140a97176110a5d6b6a6f053af6a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 09:47:38</sys_created_on>
+        <sys_id>c1f4bc3897376110a5d6b6a6f053af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1890bb378450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 09:47:38</sys_updated_on>
+        <type>Module</type>
+        <update_guid>0df4bc387d37611077ebd2f955ebc85d</update_guid>
+        <update_guid_history>0df4bc387d37611077ebd2f955ebc85d:-1854358991</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="University Courses">d845f0b897376110a5d6b6a6f053af16</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 09:48:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>38d3512f1d1e4ad3b96ebeb2876665f9</sys_id>
+        <sys_metadata>c1f4bc3897376110a5d6b6a6f053af5c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>University Courses</sys_name>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_scope_delete display_value="">f2cd2d767ffb4fac9d1f64ec2f69e524</sys_scope_delete>
+        <sys_update_name>sys_app_module_c1f4bc3897376110a5d6b6a6f053af5c</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c1f4bc3897376110a5d6b6a6f053af5c">c1f4bc3897376110a5d6b6a6f053af5e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 09:48:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

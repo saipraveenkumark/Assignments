@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d822406c97b32110a5d6b6a6f053af83" label="Universities" max_length="40" name="x_526643_assignmen_universities" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Address" mandatory="true" max_length="160" name="u_address" type="string"/>
+        <element label="Alias" max_length="6" name="u_alias" type="string"/>
+        <element label="City" mandatory="true" max_length="20" name="u_city" type="string"/>
+        <element label="Description" max_length="5000" name="u_description" type="string"/>
+        <element label="Logo" max_length="200" name="u_logo" type="string"/>
+        <element label="Name" mandatory="true" max_length="120" name="u_name" type="string"/>
+        <element label="Portfolio pictures" max_length="1000" name="u_portfolio_pictures" type="string"/>
+        <element label="State" mandatory="true" max_length="30" name="u_state" type="string"/>
+        <element label="Zipcode" max_length="8" name="u_zipcode" type="string"/>
+    </element>
+</database>

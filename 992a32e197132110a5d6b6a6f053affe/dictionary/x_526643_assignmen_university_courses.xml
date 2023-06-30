@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9aa534b897376110a5d6b6a6f053af65" label="University Courses" max_length="40" name="x_526643_assignmen_university_courses" type="collection">
+        <element label="Course" mandatory="true" max_length="32" name="uc_course" reference="x_526643_assignmen_courses" type="reference"/>
+        <element label="University" mandatory="true" max_length="32" name="uc_name" reference="x_526643_assignmen_universities" type="reference"/>
+        <element default="0" label="Seats" mandatory="true" max_length="40" name="uc_seats" type="integer"/>
+        <element label="Short form" mandatory="true" max_length="5" name="uc_short_form" read_only="true" type="string"/>
+        <index name="index">
+            <element name="uc_course"/>
+        </index>
+        <index name="index2">
+            <element name="uc_name"/>
+        </index>
+    </element>
+</database>

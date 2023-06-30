@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a0ec85b097b76110a5d6b6a6f053af02" extends="sys_import_set_row" label="Students History Data" max_length="40" name="x_526643_assignmen_students_history_data" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date of birth" label="Date of birth" max_length="40" name="u_date_of_birth" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=First name" label="First name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Gender" label="Gender" max_length="40" name="u_gender" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last name" label="Last name" max_length="40" name="u_last_name" type="string"/>
+    </element>
+</database>

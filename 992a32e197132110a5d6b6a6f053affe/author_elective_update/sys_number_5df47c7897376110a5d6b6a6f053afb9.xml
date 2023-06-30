@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_526643_assignmen_university_course">x_526643_assignmen_university_course</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>UNC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 09:47:39</sys_created_on>
+        <sys_id>5df47c7897376110a5d6b6a6f053afb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UNC</sys_name>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_update_name>sys_number_5df47c7897376110a5d6b6a6f053afb9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 09:47:39</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Assignments">992a32e197132110a5d6b6a6f053affe</application>
+        <file_path/>
+        <instance_id>e06932331b40f810e84d2f8dee4bcbea</instance_id>
+        <instance_name>dev116969</instance_name>
+        <name>sys_number_5df47c7897376110a5d6b6a6f053afb9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_526643_assignmen_university_course">x_526643_assignmen_university_course</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>UNC</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-30 09:47:39</sys_created_on><sys_id>5df47c7897376110a5d6b6a6f053afb9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>UNC</sys_name><sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package><sys_policy/><sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope><sys_update_name>sys_number_5df47c7897376110a5d6b6a6f053afb9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-30 09:47:39</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1006386385</payload_hash>
+        <record_name>UNC</record_name>
+        <reverted_from/>
+        <source>8f78140a97176110a5d6b6a6f053af6a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 09:47:39</sys_created_on>
+        <sys_id>d5f47c7897376110a5d6b6a6f053afdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1890bb37cb50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 09:47:39</sys_updated_on>
+        <type>Number</type>
+        <update_guid>11f47c78c6376110244b4f6539c633db</update_guid>
+        <update_guid_history>11f47c78c6376110244b4f6539c633db:-1006386385</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 09:48:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>6c90db603b4f4a34a134862da02697e4</sys_id>
+        <sys_metadata>5df47c7897376110a5d6b6a6f053afb9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UNC</sys_name>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_parent display_value="">e1a4f83897376110a5d6b6a6f053afde</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_scope_delete display_value="">f2cd2d767ffb4fac9d1f64ec2f69e524</sys_scope_delete>
+        <sys_update_name>sys_number_5df47c7897376110a5d6b6a6f053afb9</sys_update_name>
+        <sys_update_version display_value="sys_number_5df47c7897376110a5d6b6a6f053afb9">d5f47c7897376110a5d6b6a6f053afdb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 09:48:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_526643_assignmen_universities</description>
+        <name>x_526643_assignmen_universities</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-29 11:13:20</sys_created_on>
+        <sys_id>fefe73d897b32110a5d6b6a6f053af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_526643_assignmen_universities</sys_name>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_update_name>sys_security_acl_fefe73d897b32110a5d6b6a6f053af8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-29 11:13:20</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Assignments">992a32e197132110a5d6b6a6f053affe</application>
+        <file_path/>
+        <instance_id>e06932331b40f810e84d2f8dee4bcbea</instance_id>
+        <instance_name>dev116969</instance_name>
+        <name>sys_security_acl_fefe73d897b32110a5d6b6a6f053af8b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_526643_assignmen_universities</description><name>x_526643_assignmen_universities</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-29 11:13:20</sys_created_on><sys_id>fefe73d897b32110a5d6b6a6f053af8b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_526643_assignmen_universities</sys_name><sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package><sys_policy/><sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope><sys_update_name>sys_security_acl_fefe73d897b32110a5d6b6a6f053af8b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-29 11:13:20</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>487536083</payload_hash>
+        <record_name>x_526643_assignmen_universities</record_name>
+        <reverted_from/>
+        <source>8f78140a97176110a5d6b6a6f053af6a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-29 11:13:20</sys_created_on>
+        <sys_id>32fe73d897b32110a5d6b6a6f053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18906db933d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-29 11:13:20</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>7afe73d896b321101418b98f7ef29f8d</update_guid>
+        <update_guid_history>7afe73d896b321101418b98f7ef29f8d:487536083</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-29 11:19:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0e2531a0ec9f48428930f3550be14281</sys_id>
+        <sys_metadata>fefe73d897b32110a5d6b6a6f053af8b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_526643_assignmen_universities</sys_name>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_parent display_value="">72fe73d897b32110a5d6b6a6f053af9b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_scope_delete display_value="">f2cd2d767ffb4fac9d1f64ec2f69e524</sys_scope_delete>
+        <sys_update_name>sys_security_acl_fefe73d897b32110a5d6b6a6f053af8b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_fefe73d897b32110a5d6b6a6f053af8b">32fe73d897b32110a5d6b6a6f053af8e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-29 11:19:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

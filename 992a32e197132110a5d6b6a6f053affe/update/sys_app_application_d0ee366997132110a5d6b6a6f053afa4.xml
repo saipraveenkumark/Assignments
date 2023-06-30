@@ -14,16 +14,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d0ee366997132110a5d6b6a6f053afa4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Test</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Assignments</sys_name>
         <sys_overrides/>
         <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
         <sys_policy/>
         <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
         <sys_update_name>sys_app_application_d0ee366997132110a5d6b6a6f053afa4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-08 10:13:59</sys_updated_on>
-        <title>Test</title>
+        <sys_updated_on>2023-06-29 11:20:14</sys_updated_on>
+        <title>Assignments</title>
         <view_name/>
     </sys_app_application>
 </record_update>
