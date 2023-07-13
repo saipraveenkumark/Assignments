@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
     <sys_transform_entry action="INSERT_OR_UPDATE">
         <choice_action>create</choice_action>
-        <coalesce>true</coalesce>
+        <coalesce>false</coalesce>
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
-        <map display_value="University Courses TM">ca1bf03097776110a5d6b6a6f053afe5</map>
-        <reference_value_field>c_name</reference_value_field>
-        <source_field>u_course</source_field>
+        <map display_value="University Course Seats TM">c5e1298697772110a5d6b6a6f053af8e</map>
+        <reference_value_field/>
+        <source_field>u_seats</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {
 
 	// Add your code here
 	return ""; // return the value to be put into the target field
 
 })(source);]]></source_script>
-        <source_table>x_526643_assignmen_university_courses_history_data</source_table>
+        <source_table>x_526643_assignmen_university_course_seats_history_data</source_table>
         <sys_class_name>sys_transform_entry</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-30 10:31:36</sys_created_on>
-        <sys_id>5d0ff03497776110a5d6b6a6f053afa9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>u_course</sys_name>
+        <sys_created_on>2023-07-04 10:17:55</sys_created_on>
+        <sys_id>ff32ad8697772110a5d6b6a6f053af3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_seats</sys_name>
         <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
         <sys_policy/>
         <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
-        <sys_update_name>sys_transform_entry_5d0ff03497776110a5d6b6a6f053afa9</sys_update_name>
+        <sys_update_name>sys_transform_entry_ff32ad8697772110a5d6b6a6f053af3d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-30 12:07:52</sys_updated_on>
-        <target_field>uc_course</target_field>
+        <sys_updated_on>2023-07-04 10:17:55</sys_updated_on>
+        <target_field>uc_seats</target_field>
         <target_table>x_526643_assignmen_university_courses</target_table>
         <use_source_script>false</use_source_script>
     </sys_transform_entry>

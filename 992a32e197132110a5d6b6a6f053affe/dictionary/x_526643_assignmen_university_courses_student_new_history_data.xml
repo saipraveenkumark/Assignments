@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4e7134fe97bfa110a5d6b6a6f053af28" extends="sys_import_set_row" label="University Courses Student New History Data" max_length="40" name="x_526643_assignmen_university_courses_student_new_history_data" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Course" label="Course" max_length="58" name="u_course" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=First name" label="First name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last name" label="Last name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=University" label="University" max_length="40" name="u_university" type="string"/>
+    </element>
+</database>

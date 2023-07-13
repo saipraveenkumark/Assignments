@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b373a58697772110a5d6b6a6f053aff6" label="University + Course + Student" max_length="40" name="x_526643_assignmen_university_course_student" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" dependent="ucs_university" dependent_on_field="ucs_university" label="Course" mandatory="true" max_length="150" name="ucs_course" reference="x_526643_assignmen_courses" reference_qual="javascript:&quot;sys_idIN&quot; + new x_526643_assignmen.AssignmentFunctions().getCourses(current.ucs_university)" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
+        <element label="Student" mandatory="true" max_length="32" name="ucs_student" reference="x_526643_assignmen_students" type="reference"/>
+        <element label="University" mandatory="true" max_length="32" name="ucs_university" reference="x_526643_assignmen_universities" type="reference"/>
+        <index name="index">
+            <element name="ucs_student"/>
+        </index>
+        <index name="index2">
+            <element name="ucs_university"/>
+        </index>
+    </element>
+</database>

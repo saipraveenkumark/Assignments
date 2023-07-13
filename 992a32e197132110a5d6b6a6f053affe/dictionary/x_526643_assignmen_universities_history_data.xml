@@ -8,6 +8,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Portfolio pictures" label="Portfolio pictures" max_length="40" name="u_portfolio_pictures" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Total seats" label="Total seats" max_length="40" name="u_total_seats" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Zipcode" label="Zipcode" max_length="40" name="u_zipcode" type="string"/>
     </element>
 </database>

@@ -2,7 +2,7 @@
     <element db_object_id="e64388ec97b32110a5d6b6a6f053afae" label="Students" max_length="40" name="x_526643_assignmen_students" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Date of birth" mandatory="true" max_length="40" name="s_date_of_birth" type="glide_date"/>
-        <element display="true" label="First name" mandatory="true" max_length="60" name="s_first_name" type="string"/>
+        <element label="First name" mandatory="true" max_length="60" name="s_first_name" type="string"/>
         <element choice="3" default="male" label="Gender" mandatory="true" max_length="40" name="s_gender" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
@@ -11,5 +11,6 @@
             </choice>
         </element>
         <element label="Last name" mandatory="true" max_length="20" name="s_last_name" type="string"/>
+        <element calculation="if(current.s_first_name.nil() &amp;&amp; current.s_last_name.nil() &amp;&amp; !curent.s_name.nil()) {&#13;&#10;&#9;var names = current.s_name.toString().split(&quot; &quot;);&#13;&#10;&#9;if(names.length &gt; 1) {&#13;&#10;&#9;&#9;current.s_first_name = names[0];&#13;&#10;&#9;&#9;names.shift();&#13;&#10;&#9;&#9;current.s_last_name = names.join(&quot; &quot;);&#13;&#10;&#9;}&#13;&#10;&#9;else&#13;&#10;&#9;&#9;current.s_last_name = names[0];&#13;&#10;}&#13;&#10;&#13;&#10;if(current.s_first_name.nil()){&#13;&#10;&#9;current.s_last_name;&#13;&#10;}&#13;&#10;else {&#13;&#10;&#9;current.s_first_name + ' ' + current.s_last_name;&#13;&#10;}" display="true" label="Name" max_length="151" name="s_name" type="string" virtual="true"/>
     </element>
 </database>

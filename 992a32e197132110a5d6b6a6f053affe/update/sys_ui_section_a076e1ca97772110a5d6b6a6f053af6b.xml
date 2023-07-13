@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="a076e1ca97772110a5d6b6a6f053af6b" sys_domain="global" table="x_526643_assignmen_university_course_student" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-04 14:39:44</sys_created_on>
+            <sys_id>722e9602977b2110a5d6b6a6f053afc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526643_assignmen_university_course_student" sys_domain="global" view="Default view">a076e1ca97772110a5d6b6a6f053af6b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-04 14:39:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ucs_student</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-04 14:39:44</sys_created_on>
+            <sys_id>f22e9602977b2110a5d6b6a6f053afc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526643_assignmen_university_course_student" sys_domain="global" view="Default view">a076e1ca97772110a5d6b6a6f053af6b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-04 14:39:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ucs_university</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-04 14:39:44</sys_created_on>
+            <sys_id>762e9602977b2110a5d6b6a6f053afc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526643_assignmen_university_course_student" sys_domain="global" view="Default view">a076e1ca97772110a5d6b6a6f053af6b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-04 14:39:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ucs_course</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-04 14:39:44</sys_created_on>
+            <sys_id>f62e9602977b2110a5d6b6a6f053afc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526643_assignmen_university_course_student" sys_domain="global" view="Default view">a076e1ca97772110a5d6b6a6f053af6b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-04 14:39:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ucs_course_name</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-04 15:03:02</sys_created_on>
+            <sys_id>58836ac2977b2110a5d6b6a6f053af13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526643_assignmen_university_course_student" sys_domain="global" view="Default view">a076e1ca97772110a5d6b6a6f053af6b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-04 15:03:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ucs_first_name</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-06 14:35:54</sys_created_on>
+            <sys_id>127070be97bfa110a5d6b6a6f053afc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526643_assignmen_university_course_student" sys_domain="global" view="Default view">a076e1ca97772110a5d6b6a6f053af6b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-06 14:35:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ucs_last_name</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-06 14:38:07</sys_created_on>
+            <sys_id>e2f0f8be97bfa110a5d6b6a6f053afaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526643_assignmen_university_course_student" sys_domain="global" view="Default view">a076e1ca97772110a5d6b6a6f053af6b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-06 14:38:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_526643_assignmen_university_course_student</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-04 10:36:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a076e1ca97772110a5d6b6a6f053af6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_526643_assignmen_university_course_student</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+            <sys_update_name>sys_ui_section_a076e1ca97772110a5d6b6a6f053af6b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-04 10:36:16</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

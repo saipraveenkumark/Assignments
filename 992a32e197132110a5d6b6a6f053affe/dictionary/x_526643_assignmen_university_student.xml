@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="aa948ecf97b72110a5d6b6a6f053afbd" label="University + Student" max_length="40" name="x_526643_assignmen_university_student" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Student" mandatory="true" max_length="32" name="su_student" reference="x_526643_assignmen_students" type="reference"/>
+        <element label="University confirmed" mandatory="true" max_length="32" name="su_university" reference="x_526643_assignmen_universities" type="reference"/>
+        <element label="University Option 1" max_length="32" name="university_option_1" reference="x_526643_assignmen_universities" type="reference"/>
+        <element label="University Option 2" max_length="32" name="university_option_2" reference="x_526643_assignmen_universities" type="reference"/>
+        <element label="University Option 3" max_length="32" name="university_option_3" reference="x_526643_assignmen_universities" type="reference"/>
+        <index name="index">
+            <element name="su_student"/>
+        </index>
+        <index name="index2">
+            <element name="su_university"/>
+        </index>
+        <index name="index3">
+            <element name="university_option_1"/>
+        </index>
+        <index name="index4">
+            <element name="university_option_2"/>
+        </index>
+        <index name="index5">
+            <element name="university_option_3"/>
+        </index>
+    </element>
+</database>

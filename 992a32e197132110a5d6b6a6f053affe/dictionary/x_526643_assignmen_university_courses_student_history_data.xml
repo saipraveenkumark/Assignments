@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="94a7687697bfa110a5d6b6a6f053af35" extends="sys_import_set_row" label="University Courses Student History Data" max_length="40" name="x_526643_assignmen_university_courses_student_history_data" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Course" label="Course" max_length="58" name="u_course" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Student" label="Student" max_length="40" name="u_student" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=University" label="University" max_length="40" name="u_university" type="string"/>
+    </element>
+</database>

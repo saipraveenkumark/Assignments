@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="da0bb03097776110a5d6b6a6f053af61" extends="sys_import_set_row" label="University Courses History Data" max_length="40" name="x_526643_assignmen_university_courses_history_data" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Course" label="Course" max_length="40" name="u_course" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Course" label="Course" max_length="100" name="u_course" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="100" name="u_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Seats" label="Seats" max_length="40" name="u_seats" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Short form" label="Short form" max_length="40" name="u_short_form" type="string"/>
     </element>

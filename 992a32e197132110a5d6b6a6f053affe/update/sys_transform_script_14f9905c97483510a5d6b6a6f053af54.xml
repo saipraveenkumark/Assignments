@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="University Student TM">e2a7dc9897483510a5d6b6a6f053af44</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    // Add your code here
+    gs.info('Praveen: Student: ' + source.u_student);
+
+    var flag = 0;
+
+    var universityOptions = [source.u_university_option_1, source.u_university_option_2, source.u_university_option_3];
+
+    for (var i = 0; i < universityOptions.length; i++) {
+        var universityGR = new GlideRecord('x_526643_assignmen_universities');
+        universityGR.addEncodedQuery('u_available_seats>0^number=' + universityOptions[i]);
+        gs.info('Praveen: University Option ' + i + ' - Name: ' + universityOptions[i]);
+        universityGR.query();
+
+        if (universityGR.next()) {
+            target.su_university = universityGR.sys_id.toString();
+            universityGR.u_available_seats = universityGR.u_available_seats - 1;
+            universityGR.update();
+
+            flag = 1;
+
+            break;
+        }
+    }
+
+    if (flag == 0) {
+        ignore = true;
+    }
+
+    //     var universityGROpt1 = new GlideRecord('x_526643_assignmen_universities');
+    // //     universityGROpt1.addQuery('u_name', source.u_university_option_1);
+    // 	universityGROpt1.addQuery('number', source.u_university_option_1);
+    //     gs.info('Praveen: University Option 1 - Name: ' + source.u_university_option_1);
+    //     universityGROpt1.query();
+
+    //     var avaiableSeats = 0;
+
+    //     if (universityGROpt1.next()) {
+    //         avaiableSeats = universityGROpt1.getValue('u_total_seats');
+    //     }
+
+    //     gs.info('Praveen: ' + source.u_university_option_1 + " :Available Seats: " + avaiableSeats);
+
+    //     if (avaiableSeats > 0) {
+    // 		target.su_university = universityGROpt1.sys_id.toString();
+    //     } else {
+    //         var universityGROpt2 = new GlideRecord('x_526643_assignmen_universities');
+    // //         universityGROpt2.addQuery('u_name', source.u_university_option_2);
+    // 		universityGROpt2.addQuery('number', source.u_university_option_2);
+    //         gs.info('Praveen: University Option 2 - Name: ' + source.u_university_option_2);
+    //         universityGROpt2.query();
+
+    //         avaiableSeats = 0;
+
+    //         if (universityGROpt2.next()) {
+    //             avaiableSeats = universityGROpt2.getValue('u_total_seats');
+    //         }
+
+    // 		gs.info('Praveen: ' + source.u_university_option_2 + " :Available Seats: " + avaiableSeats);
+
+    //         if (avaiableSeats > 0) {
+    // 			target.su_university = universityGROpt2.sys_id.toString();
+    //         } else {
+    //             var universityGROpt3 = new GlideRecord('x_526643_assignmen_universities');
+    // //             universityGROpt3.addQuery('u_name', source.u_university_option_3);
+    // 			universityGROpt3.addQuery('number', source.u_university_option_3);
+    //             gs.info('Praveen: University Option 3 - Name: ' + source.u_university_option_3);
+    //             universityGROpt3.query();
+
+    //             avaiableSeats = 0;
+
+    //             if (universityGROpt3.next()) {
+    //                 avaiableSeats = universityGROpt3.getValue('u_total_seats');
+    //             }
+
+    // 			gs.info('Praveen: ' + source.u_university_option_3 + " :Available Seats: " + avaiableSeats);
+
+    //             if (avaiableSeats > 0) {
+    // 				target.su_university = universityGROpt3.sys_id.toString();
+    //             } else {
+    // //                 if (action == 'insert' || action == 'update') {
+    //                     ignore = true;
+    // //                 }
+    //             }
+    //         }
+    //     }
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-11 05:10:10</sys_created_on>
+        <sys_id>14f9905c97483510a5d6b6a6f053af54</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Assignments" source="x_526643_assignmen">992a32e197132110a5d6b6a6f053affe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Assignments">992a32e197132110a5d6b6a6f053affe</sys_scope>
+        <sys_update_name>sys_transform_script_14f9905c97483510a5d6b6a6f053af54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 05:10:00</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>
